@@ -1,0 +1,28 @@
+\begin{table}[htbp]
+\centering
+\caption{表 1：符号说明}
+
+\small
+\begin{tabularx}{\linewidth}{@{}p{29mm}X p{24mm}@{}}
+\toprule
+符号 & 含义 & 单位/取值 \\
+\midrule
+$S_i,\ \theta_i$ & 第 $i$ 个检测点位置与其示向度 & 米；度 \\
+$\delta$ & 示向度误差界 & $1^\circ$ \\
+$W(S,\theta,\delta)$ & 顶点为 $S$、轴向 $\theta$、半开角 $\delta$ 的前向闭角域 & — \\
+$P$ & 定位区域 $\bigcap_i W(S_i,\theta_i,\delta)$ & 凸集 \\
+$v_1,\dots,v_k$ & $P$ 的顶点，逆时针排列 & 米 \\
+$D$ & 定位区域直径 $\max_{X,Y\in P}\lVert X-Y\rVert$ & 米 \\
+$M$ & 最远顶点对的中点 & 米 \\
+$R_*$ & 最小覆盖圆半径 $\min_C\max_i\lVert v_i-C\rVert$ & 米 \\
+$R_0,\ L$ & 有效接收半径的下界、上界 & $1000$ 米、$1500$ 米 \\
+$H$ & 目标区域半径 & $1800$ 米 \\
+$r_n,\ r_x$ & 近距半径、清除半径 & $5$ 米、$20$ 米 \\
+$K,\ \widehat K$ & 可能源位置集合及其保守外包，$K\subseteq\widehat K$ & — \\
+$\mathcal C$ & 第二检测点的候选区域 & — \\
+$I(q)$ & 候选点 $q$ 处全部可能示向度读数的外包络 & 度 \\
+$\gamma$ & 要求的最小锐交会角 & $3^\circ$ \\
+\bottomrule
+\end{tabularx}
+
+\end{table}

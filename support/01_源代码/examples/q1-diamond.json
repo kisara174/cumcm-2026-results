@@ -1,0 +1,5 @@
+{
+  "description": "Synthetic symmetric two-detector example, not official simulator data. True target (0,0), detectors (-500,0),(0,-500), zero actual bearing errors.",
+  "positions_m": [[-500.0, 0.0], [0.0, -500.0]],
+  "bearings_deg": [0.0, 90.0]
+}

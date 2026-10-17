@@ -1,0 +1,26 @@
+{
+  "renderer": "MATLAB R2024b batch",
+  "source_hash_scheme": "sha256_text_lf",
+  "output_hash_scheme": "sha256_bytes",
+  "sources": {
+    "baseline\\plot_q2.m": "46570efad36720a23481d0cc398804c720c281ee4ce8e55c679c22249be50795",
+    "configs\\q1.json": "fed56afb22ee8457d7be1cb6bc2eb67816929aa2078e6105e5a67ee294c5c2ca",
+    "configs\\q2.json": "0fb92917d76a1eb605e9a01041170c526994919db6871b27fb37eca4bdacaf28",
+    "baseline\\results\\q2-origin.json": "7bb53fbf46eb96e6f211abfbabedd819449c0c135dead0d24fbe6bb55464f362",
+    "baseline\\results\\q2-edge.json": "62ca3f50cb5983e270e600d23f431abbbe107bcd38a9acee9e47cd8f50f13c3a",
+    "baseline\\results\\q2-oblique.json": "78ca25b63a3d384c13ef0808a4050bef29f1753b78ac6d697254552631349a45"
+  },
+  "outputs": {
+    "q2-adaptive.fig": "9fd89f9fa52a5de22e7850818a970390ca228f6bef1fd3fe34a1a7c4b4c3dae9",
+    "q2-adaptive.pdf": "0052acbfcdbdebd0991680e45ffd5096749af12d98384508b1d1111d07a93cb0",
+    "q2-adaptive.png": "27ba68bb5a611bb07eb6e13c3082aaaa6a1fee6a5af5a1923c23f483362c53d4"
+  },
+  "png_shape": [
+    1240,
+    2039,
+    3
+  ],
+  "repeat_png_pixels_equal": true,
+  "pdf_pages": 1,
+  "png_visually_inspected": true
+}

@@ -1,0 +1,5 @@
+图12：多起点路线搜索的离散改进过程
+论文页码：24
+来源：assets/q4-route-objective.pdf
+排版参数：width=.91\linewidth,trim=17bp 83bp 19bp 21bp,clip
+独立导出保持论文实际裁切范围；原始文件保留原字节。

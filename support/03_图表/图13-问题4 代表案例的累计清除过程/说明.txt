@@ -1,0 +1,5 @@
+图13：问题4 代表案例的累计清除过程
+论文页码：25
+来源：assets/q34-clearance-stairs.pdf
+排版参数：width=.74\linewidth,trim=336bp 21bp 10bp 17bp,clip
+独立导出保持论文实际裁切范围；原始文件保留原字节。

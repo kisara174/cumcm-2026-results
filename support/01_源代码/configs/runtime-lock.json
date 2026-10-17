@@ -1,0 +1,16 @@
+{
+  "verified_at": "2026-09-11",
+  "python": "3.14.7",
+  "platform": "macOS arm64",
+  "packages": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "z3-solver": "4.15.4.0"
+  },
+  "minimum_python": "3.10",
+  "notes": [
+    "z3固定为4.15.4.0，与递归策略实验的冻结环境一致。",
+    "完整baseline还使用pandas、openpyxl、matplotlib、pulp、sympy。",
+    "官方模拟器只提供本机HTTP接口，不需要额外Python包。"
+  ]
+}

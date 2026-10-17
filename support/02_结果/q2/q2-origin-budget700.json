@@ -1,0 +1,201 @@
+{
+  "status": "selected",
+  "strategy": "disk_aware_sector_enclosure_minimax",
+  "first_position_m": [
+    0.0,
+    0.0
+  ],
+  "first_bearing_deg": 0.0,
+  "second_position_m": [
+    418.3989689154213,
+    561.1972037949143
+  ],
+  "selected_local_m": [
+    418.3989689154213,
+    561.1972037949143
+  ],
+  "selected_side": 1,
+  "move_distance_m": 699.999999097656,
+  "move_and_measure_time_s": 144.99999981953118,
+  "maximum_move_distance_m": 700.0,
+  "same_channel_switch_time_s": 0.0,
+  "safe_region_margin_m": 179.6842116177936,
+  "nearest_possible_source_m": 553.8096618841045,
+  "prior": {
+    "target_disk_used_to_tighten": true,
+    "near_radius_used_to_tighten": true,
+    "enclosure": "union_of_closed_annular_sectors",
+    "cells_rad_rad_m_m": [
+      [
+        -0.017453292519943295,
+        -0.015271630954950384,
+        4.99999,
+        1500.00001
+      ],
+      [
+        -0.015271630954950384,
+        -0.013089969389957472,
+        4.99999,
+        1500.00001
+      ],
+      [
+        -0.013089969389957472,
+        -0.01090830782496456,
+        4.99999,
+        1500.00001
+      ],
+      [
+        -0.01090830782496456,
+        -0.008726646259971648,
+        4.99999,
+        1500.00001
+      ],
+      [
+        -0.008726646259971648,
+        -0.006544984694978736,
+        4.99999,
+        1500.00001
+      ],
+      [
+        -0.006544984694978736,
+        -0.004363323129985823,
+        4.99999,
+        1500.00001
+      ],
+      [
+        -0.004363323129985823,
+        -0.0021816615649929115,
+        4.99999,
+        1500.00001
+      ],
+      [
+        -0.0021816615649929115,
+        0.0,
+        4.99999,
+        1500.00001
+      ],
+      [
+        0.0,
+        0.0021816615649929115,
+        4.99999,
+        1500.00001
+      ],
+      [
+        0.0021816615649929115,
+        0.004363323129985823,
+        4.99999,
+        1500.00001
+      ],
+      [
+        0.004363323129985823,
+        0.0065449846949787345,
+        4.99999,
+        1500.00001
+      ],
+      [
+        0.0065449846949787345,
+        0.00872664625997165,
+        4.99999,
+        1500.00001
+      ],
+      [
+        0.00872664625997165,
+        0.010908307824964561,
+        4.99999,
+        1500.00001
+      ],
+      [
+        0.010908307824964561,
+        0.013089969389957472,
+        4.99999,
+        1500.00001
+      ],
+      [
+        0.013089969389957472,
+        0.01527163095495038,
+        4.99999,
+        1500.00001
+      ],
+      [
+        0.01527163095495038,
+        0.017453292519943295,
+        4.99999,
+        1500.00001
+      ]
+    ],
+    "maximum_range_bound_m": 1500.00001,
+    "target_region_radius_m": 1800.0
+  },
+  "candidate_region": {
+    "definition": "reception_margins >= margin; nearest > near+margin; separated upper/lower branch; crossing >= gamma; optional move budget",
+    "minimum_measured_crossing_angle_deg": 3.0,
+    "is_maximal_feasible_region": false
+  },
+  "selection_metric": "sampled_minimax_of_Q1_angular_polygon_diameter_over_enclosed_readings",
+  "audit": {
+    "sampled_worst_diameter_m": 233.6956977834063,
+    "worst_second_bearing_relative_deg": -25.324308629229897,
+    "second_bearing_interval_relative_deg": [
+      -127.3810631625775,
+      -25.324308629229897
+    ],
+    "bearing_samples": 2049,
+    "topology_changes_included": true,
+    "local_peak_refinement": true,
+    "formal_continuous_certificate": false
+  },
+  "q1_crosscheck_diameter_m": 233.69569778340457,
+  "q1_crosscheck_difference_m": 1.7337242752546445e-12,
+  "search_history": [
+    {
+      "side": 1,
+      "feasible_evaluations": 623,
+      "optimizer_success": false,
+      "optimizer_message": "Maximum number of iterations has been exceeded.",
+      "finalists_validated": 5
+    },
+    {
+      "side": -1,
+      "feasible_evaluations": 623,
+      "optimizer_success": false,
+      "optimizer_message": "Maximum number of iterations has been exceeded.",
+      "finalists_validated": 5
+    }
+  ],
+  "reference_candidates": [],
+  "global_optimality_claimed": false,
+  "formal_interval_certificate": false,
+  "reception_guarantee_basis": "analytic radial endpoint/kink and angular extrema over enclosing cells; explicit floating margin",
+  "effective_config": {
+    "minimum_reception_radius_m": 1000.0,
+    "maximum_reception_radius_m": 1500.0,
+    "target_region_radius_m": 1800.0,
+    "near_radius_m": 5.0,
+    "clear_radius_m": 20.0,
+    "walking_speed_m_s": 5.0,
+    "measurement_time_s": 5.0,
+    "prior_angular_cells": 16,
+    "geometry_margin_m": 1e-05,
+    "minimum_measured_crossing_angle_deg": 3.0,
+    "maximum_move_distance_m": 700.0,
+    "training_bearing_samples": 129,
+    "validation_bearing_samples": 2049,
+    "search_seed": 20260910,
+    "search_population": 10,
+    "search_iterations": 65,
+    "source": "B题.pdf 问题2及附录2。圆域、距离和动作时间来自题面；角度分片、数值余量、3度筛选、采样及搜索参数属于显式算法设置。无模拟器调用。"
+  },
+  "input_description": "Constructed central first reading; full radial prior remains possible.",
+  "provenance": {
+    "hash_scheme": "sha256_text_lf",
+    "input_sha256": "e307217efd5459a7c5c14ab7be4565a7c8e56fafb5ec92a28ee94301550aa447",
+    "config_sha256": "0fb92917d76a1eb605e9a01041170c526994919db6871b27fb37eca4bdacaf28",
+    "geometry_config_sha256": "fed56afb22ee8457d7be1cb6bc2eb67816929aa2078e6105e5a67ee294c5c2ca",
+    "sources": {
+      "q2.py": "a6bc1c520b75a01d21d8a32804a6420ab02b9260a274b8563670080c276e1120",
+      "q2_geometry.py": "b4a2b87f20ace6ef5b5ce08e57e06b9af1a5fa5fb943a3009aaacb30f46c2544",
+      "q1.py": "7337d5682dc9ab0e5111d337f804008caeb621675d552b3072e5343450dc87f0",
+      "q1_geometry.py": "695f6be8c49d1102de75694c5b3d22a1ffd1b1707fb4f603edecda924c002fb6"
+    }
+  }
+}

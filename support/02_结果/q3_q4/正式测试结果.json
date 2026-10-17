@@ -1,0 +1,159 @@
+{
+  "rows": [
+    {
+      "run": "q3-run1",
+      "problem": 3,
+      "case_id": "R6V3-VZVW-3J6S-4EEB",
+      "cleared_count": 11,
+      "total_sources": null,
+      "virtual_time_s": 2672.516823,
+      "tc_s": 242.9560748181818,
+      "program_runtime_s": 1.718,
+      "adapter_wall_s": 1.7460206000000653,
+      "http_requests": 138,
+      "retries": 0,
+      "action_counts": {
+        "/measure": 123,
+        "/clear": 13
+      },
+      "max_step_time_error_s": 4.873920680381616e-07,
+      "policy_replay_verified": true,
+      "full_clearance_verified": false,
+      "upload_status": "已上传",
+      "log_bytes": 107765,
+      "log_sha256": "7ff1cac1152c29446ea0ea6374d978cd0b45993da681992aaf35fee3640a6244",
+      "frozen_sources_checked": 164
+    },
+    {
+      "run": "q3-run2",
+      "problem": 3,
+      "case_id": "W69R-D558-Q872-M8FM",
+      "cleared_count": 11,
+      "total_sources": null,
+      "virtual_time_s": 2850.886853,
+      "tc_s": 259.17153209090907,
+      "program_runtime_s": 1.542,
+      "adapter_wall_s": 1.5485141999999996,
+      "http_requests": 125,
+      "retries": 0,
+      "action_counts": {
+        "/measure": 111,
+        "/clear": 12
+      },
+      "max_step_time_error_s": 4.608603774158837e-07,
+      "policy_replay_verified": true,
+      "full_clearance_verified": false,
+      "upload_status": "已上传",
+      "log_bytes": 104465,
+      "log_sha256": "ecbdb2281cf5b94876b3517014155a82486f4b30a5074115888e3878f8dc262c",
+      "frozen_sources_checked": 164
+    },
+    {
+      "run": "q3-run3",
+      "problem": 3,
+      "case_id": "69A8-R79F-PE79-RP3H",
+      "cleared_count": 16,
+      "total_sources": null,
+      "virtual_time_s": 3093.373686,
+      "tc_s": 193.335855375,
+      "program_runtime_s": 1.696,
+      "adapter_wall_s": 1.721548999999868,
+      "http_requests": 132,
+      "retries": 0,
+      "action_counts": {
+        "/measure": 111,
+        "/clear": 19
+      },
+      "max_step_time_error_s": 4.693478956596664e-07,
+      "policy_replay_verified": true,
+      "full_clearance_verified": false,
+      "upload_status": "已上传",
+      "log_bytes": 104654,
+      "log_sha256": "48b8208f84f1621a2c7f807fc0dc0a7992de1e1120de78808308cff6b6d4b59a",
+      "frozen_sources_checked": 164
+    },
+    {
+      "run": "q4-run1",
+      "problem": 4,
+      "case_id": "JUMN-FQNA-DCHZ-3UZF",
+      "cleared_count": 11,
+      "total_sources": null,
+      "virtual_time_s": 5555.483985,
+      "tc_s": 505.0439986363636,
+      "program_runtime_s": 3.449,
+      "adapter_wall_s": 3.47620720000009,
+      "http_requests": 286,
+      "retries": 0,
+      "action_counts": {
+        "/measure": 272,
+        "/clear": 12
+      },
+      "max_step_time_error_s": 4.660193084760067e-07,
+      "policy_replay_verified": true,
+      "full_clearance_verified": false,
+      "upload_status": "已上传",
+      "log_bytes": 139466,
+      "log_sha256": "40e0a9b8d597d0c4d71f5fddc1f17cf46dbb7851cd250939fe7a7a3b346c4897",
+      "frozen_sources_checked": 164
+    },
+    {
+      "run": "q4-run2",
+      "problem": 4,
+      "case_id": "8VJX-5QN5-3DNZ-QYKZ",
+      "cleared_count": 16,
+      "total_sources": null,
+      "virtual_time_s": 5176.091798,
+      "tc_s": 323.505737375,
+      "program_runtime_s": 3.026,
+      "adapter_wall_s": 3.03571090000014,
+      "http_requests": 248,
+      "retries": 0,
+      "action_counts": {
+        "/measure": 229,
+        "/clear": 17
+      },
+      "max_step_time_error_s": 4.78245681279077e-07,
+      "policy_replay_verified": true,
+      "full_clearance_verified": false,
+      "upload_status": "已上传",
+      "log_bytes": 132675,
+      "log_sha256": "58de0b4d4f25856da4e5fe8b81ebca19182341898a70c3ed32fbcafbe7797b05",
+      "frozen_sources_checked": 164
+    },
+    {
+      "run": "q4-run3",
+      "problem": 4,
+      "case_id": "SYPS-N9E8-6PKF-639E",
+      "cleared_count": 12,
+      "total_sources": null,
+      "virtual_time_s": 5873.876316,
+      "tc_s": 489.489693,
+      "program_runtime_s": 3.282,
+      "adapter_wall_s": 3.2894664000000375,
+      "http_requests": 276,
+      "retries": 0,
+      "action_counts": {
+        "/measure": 260,
+        "/clear": 14
+      },
+      "max_step_time_error_s": 4.98671814952445e-07,
+      "policy_replay_verified": true,
+      "full_clearance_verified": false,
+      "upload_status": "已上传",
+      "log_bytes": 132782,
+      "log_sha256": "d29c416c4361a18d25c9b51564809180b02b5de2712cbe33154be0cc84813022",
+      "frozen_sources_checked": 164
+    }
+  ],
+  "summary": {
+    "3": {
+      "cleared_total": 38,
+      "mean_case_tc_s": 231.82115409469696
+    },
+    "4": {
+      "cleared_total": 39,
+      "mean_case_tc_s": 439.3464763371212
+    }
+  },
+  "source": "Six completed formal sessions"
+}

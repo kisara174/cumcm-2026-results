@@ -1,0 +1,236 @@
+{
+  "status": "selected",
+  "strategy": "disk_aware_sector_enclosure_minimax",
+  "first_position_m": [
+    1700.0,
+    0.0
+  ],
+  "first_bearing_deg": 0.0,
+  "second_position_m": [
+    1777.148762330648,
+    66.64775584637675
+  ],
+  "selected_local_m": [
+    77.14876233064786,
+    66.64775584637675
+  ],
+  "selected_side": 1,
+  "move_distance_m": 101.95025693204032,
+  "move_and_measure_time_s": 25.390051386408064,
+  "maximum_move_distance_m": null,
+  "same_channel_switch_time_s": 0.0,
+  "safe_region_margin_m": 901.7191889369391,
+  "nearest_possible_source_m": 65.29117351401786,
+  "prior": {
+    "target_disk_used_to_tighten": true,
+    "near_radius_used_to_tighten": true,
+    "enclosure": "union_of_closed_annular_sectors",
+    "cells_rad_rad_m_m": [
+      [
+        -0.017453292519943295,
+        -0.015271630954950384,
+        4.99999,
+        100.01439635823351
+      ],
+      [
+        -0.015271630954950384,
+        -0.013089969389957472,
+        4.99999,
+        100.01102426000132
+      ],
+      [
+        -0.013089969389957472,
+        -0.01090830782496456,
+        4.99999,
+        100.00810192122884
+      ],
+      [
+        -0.01090830782496456,
+        -0.008726646259971648,
+        4.99999,
+        100.00562927918263
+      ],
+      [
+        -0.008726646259971648,
+        -0.006544984694978736,
+        4.99999,
+        100.00360628078576
+      ],
+      [
+        -0.006544984694978736,
+        -0.004363323129985823,
+        4.99999,
+        100.00203288261528
+      ],
+      [
+        -0.004363323129985823,
+        -0.0021816615649929115,
+        4.99999,
+        100.00090905090008
+      ],
+      [
+        -0.0021816615649929115,
+        0.0,
+        4.99999,
+        100.00023476151902
+      ],
+      [
+        0.0,
+        0.0021816615649929115,
+        4.99999,
+        100.00023476151902
+      ],
+      [
+        0.0021816615649929115,
+        0.004363323129985823,
+        4.99999,
+        100.00090905090008
+      ],
+      [
+        0.004363323129985823,
+        0.0065449846949787345,
+        4.99999,
+        100.00203288261528
+      ],
+      [
+        0.0065449846949787345,
+        0.00872664625997165,
+        4.99999,
+        100.00360628078576
+      ],
+      [
+        0.00872664625997165,
+        0.010908307824964561,
+        4.99999,
+        100.00562927918263
+      ],
+      [
+        0.010908307824964561,
+        0.013089969389957472,
+        4.99999,
+        100.00810192122884
+      ],
+      [
+        0.013089969389957472,
+        0.01527163095495038,
+        4.99999,
+        100.01102426000132
+      ],
+      [
+        0.01527163095495038,
+        0.017453292519943295,
+        4.99999,
+        100.01439635823351
+      ]
+    ],
+    "maximum_range_bound_m": 100.01439635823351,
+    "target_region_radius_m": 1800.0
+  },
+  "candidate_region": {
+    "definition": "reception_margins >= margin; nearest > near+margin; separated upper/lower branch; crossing >= gamma; optional move budget",
+    "minimum_measured_crossing_angle_deg": 3.0,
+    "is_maximal_feasible_region": false
+  },
+  "selection_metric": "sampled_minimax_of_Q1_angular_polygon_diameter_over_enclosed_readings",
+  "audit": {
+    "sampled_worst_diameter_m": 5.335668818839601,
+    "worst_second_bearing_relative_deg": -138.17671601605463,
+    "second_bearing_interval_relative_deg": [
+      -138.30736933646324,
+      -69.60415779903904
+    ],
+    "bearing_samples": 2049,
+    "topology_changes_included": true,
+    "local_peak_refinement": true,
+    "formal_continuous_certificate": false
+  },
+  "q1_crosscheck_diameter_m": 5.33566881883948,
+  "q1_crosscheck_difference_m": 1.2079226507921703e-13,
+  "search_history": [
+    {
+      "side": 1,
+      "feasible_evaluations": 961,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully.",
+      "finalists_validated": 6
+    },
+    {
+      "side": -1,
+      "feasible_evaluations": 961,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully.",
+      "finalists_validated": 6
+    }
+  ],
+  "reference_candidates": [
+    {
+      "side": 1,
+      "local_position_m": [
+        800.0,
+        600.0
+      ],
+      "sampled_worst_diameter_m": 56.85155794403323,
+      "worst_second_bearing_relative_deg": -142.130102354156,
+      "second_bearing_interval_relative_deg": [
+        -143.9615589175526,
+        -138.31647998770384
+      ],
+      "bearing_samples": 2049,
+      "topology_changes_included": true,
+      "local_peak_refinement": true,
+      "formal_continuous_certificate": false
+    },
+    {
+      "side": -1,
+      "local_position_m": [
+        800.0,
+        -600.0
+      ],
+      "sampled_worst_diameter_m": 56.85155794403323,
+      "worst_second_bearing_relative_deg": 142.130102354156,
+      "second_bearing_interval_relative_deg": [
+        138.31647998770384,
+        143.9615589175526
+      ],
+      "bearing_samples": 2049,
+      "topology_changes_included": true,
+      "local_peak_refinement": true,
+      "formal_continuous_certificate": false
+    }
+  ],
+  "global_optimality_claimed": false,
+  "formal_interval_certificate": false,
+  "reception_guarantee_basis": "analytic radial endpoint/kink and angular extrema over enclosing cells; explicit floating margin",
+  "effective_config": {
+    "minimum_reception_radius_m": 1000.0,
+    "maximum_reception_radius_m": 1500.0,
+    "target_region_radius_m": 1800.0,
+    "near_radius_m": 5.0,
+    "clear_radius_m": 20.0,
+    "walking_speed_m_s": 5.0,
+    "measurement_time_s": 5.0,
+    "prior_angular_cells": 16,
+    "geometry_margin_m": 1e-05,
+    "minimum_measured_crossing_angle_deg": 3.0,
+    "maximum_move_distance_m": null,
+    "training_bearing_samples": 129,
+    "validation_bearing_samples": 2049,
+    "search_seed": 20260910,
+    "search_population": 10,
+    "search_iterations": 65,
+    "source": "B题.pdf 问题2及附录2。圆域、距离和动作时间来自题面；角度分片、数值余量、3度筛选、采样及搜索参数属于显式算法设置。无模拟器调用。"
+  },
+  "input_description": "Constructed outward edge reading; target disk limits range to about 100 m.",
+  "provenance": {
+    "hash_scheme": "sha256_text_lf",
+    "input_sha256": "2ef0576a3cc461a3ad29f5550c7e3d1d016ac8050d31b8130037afe1f2309445",
+    "config_sha256": "0fb92917d76a1eb605e9a01041170c526994919db6871b27fb37eca4bdacaf28",
+    "geometry_config_sha256": "fed56afb22ee8457d7be1cb6bc2eb67816929aa2078e6105e5a67ee294c5c2ca",
+    "sources": {
+      "q2.py": "a6bc1c520b75a01d21d8a32804a6420ab02b9260a274b8563670080c276e1120",
+      "q2_geometry.py": "b4a2b87f20ace6ef5b5ce08e57e06b9af1a5fa5fb943a3009aaacb30f46c2544",
+      "q1.py": "7337d5682dc9ab0e5111d337f804008caeb621675d552b3072e5343450dc87f0",
+      "q1_geometry.py": "695f6be8c49d1102de75694c5b3d22a1ffd1b1707fb4f603edecda924c002fb6"
+    }
+  }
+}

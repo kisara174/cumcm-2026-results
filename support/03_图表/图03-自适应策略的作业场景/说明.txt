@@ -1,0 +1,5 @@
+图3 　自适应策略的作业场景
+论文页码：12
+来源：assets/q2-q2-operation-scene.pdf
+排版参数：width=0.72\linewidth
+独立导出保持论文实际裁切范围；原始文件保留原字节。

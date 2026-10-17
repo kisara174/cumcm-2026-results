@@ -1,0 +1,5 @@
+图2 　定位区域与清除圆的覆盖关系
+论文页码：7
+来源：assets/q1-q1-user-selected.png
+排版参数：width=1\linewidth
+独立导出保持论文实际裁切范围；原始文件保留原字节。

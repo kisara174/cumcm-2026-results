@@ -6,7 +6,7 @@
 
 ## 阅读入口
 
-- [最终论文（正文及完整附录，157 页）](paper/final-paper.pdf)
+- [最终论文（正文及完整附录，157 页）](https://github.com/kisara174/cumcm-2026-results/releases/download/v1.0/final-paper.pdf)
 - [独立附录 A–B（128 页）](paper/appendices.pdf)
 - [源代码与配置](support/01_源代码/)
 - [计算结果](support/02_结果/)

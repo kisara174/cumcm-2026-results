@@ -1,0 +1,186 @@
+{
+  "scope": "constructed_geometry_no_simulator",
+  "python": "3.11.9",
+  "numpy": "2.4.6",
+  "scipy": "1.17.1",
+  "cases": [
+    {
+      "name": "q2-origin",
+      "repeat_bytes_equal": true,
+      "source_hashes_verified": true,
+      "selected_local_m": [
+        804.8442087216499,
+        600.1193566818151
+      ],
+      "move_and_measure_time_s": 205.79018328364307,
+      "worst_diameter_m": 134.06585961070328,
+      "same_prior_fixed_rule_worst_diameter_m": 134.9758930001613,
+      "fixed_rule_excluded_by_budget": false,
+      "stationary_enumeration": {
+        "diameter_m": 134.0658596107033,
+        "reading_deg": -38.553312893445046,
+        "critical_candidates": 9,
+        "formal_root_isolation": false
+      },
+      "dense_16385": {
+        "sampled_worst_diameter_m": 134.06585961070328,
+        "worst_second_bearing_relative_deg": -38.553312893445046,
+        "second_bearing_interval_relative_deg": [
+          -144.12330133670207,
+          -38.553312893445046
+        ],
+        "bearing_samples": 16385,
+        "topology_changes_included": true,
+        "local_peak_refinement": true,
+        "formal_continuous_certificate": false
+      },
+      "reception_margin_m": 1.1319664963593823e-05,
+      "nearest_possible_source_m": 585.981487347745
+    },
+    {
+      "name": "q2-edge",
+      "repeat_bytes_equal": true,
+      "source_hashes_verified": true,
+      "selected_local_m": [
+        77.14876233064786,
+        66.64775584637675
+      ],
+      "move_and_measure_time_s": 25.390051386408064,
+      "worst_diameter_m": 5.335668818839601,
+      "same_prior_fixed_rule_worst_diameter_m": 56.85155794403323,
+      "fixed_rule_excluded_by_budget": false,
+      "stationary_enumeration": {
+        "diameter_m": 5.335668818839796,
+        "reading_deg": -138.1767160160545,
+        "critical_candidates": 10,
+        "formal_root_isolation": false
+      },
+      "dense_16385": {
+        "sampled_worst_diameter_m": 5.335668818839601,
+        "worst_second_bearing_relative_deg": -138.17671601605463,
+        "second_bearing_interval_relative_deg": [
+          -138.30736933646324,
+          -69.60415779903904
+        ],
+        "bearing_samples": 16385,
+        "topology_changes_included": true,
+        "local_peak_refinement": true,
+        "formal_continuous_certificate": false
+      },
+      "reception_margin_m": 901.7191889369391,
+      "nearest_possible_source_m": 65.29117351401786
+    },
+    {
+      "name": "q2-oblique",
+      "repeat_bytes_equal": true,
+      "source_hashes_verified": true,
+      "selected_local_m": [
+        144.76353700821574,
+        -122.72232274041949
+      ],
+      "move_and_measure_time_s": 42.95642245835755,
+      "worst_diameter_m": 10.037394285174472,
+      "same_prior_fixed_rule_worst_diameter_m": 56.85155794403323,
+      "fixed_rule_excluded_by_budget": false,
+      "stationary_enumeration": {
+        "diameter_m": 10.037394285174452,
+        "reading_deg": -69.06428416880478,
+        "critical_candidates": 9,
+        "formal_root_isolation": false
+      },
+      "dense_16385": {
+        "sampled_worst_diameter_m": 10.037394285174472,
+        "worst_second_bearing_relative_deg": -69.06428416880478,
+        "second_bearing_interval_relative_deg": [
+          -139.7349291759486,
+          -69.06428416880478
+        ],
+        "bearing_samples": 16385,
+        "topology_changes_included": true,
+        "local_peak_refinement": true,
+        "formal_continuous_certificate": false
+      },
+      "reception_margin_m": 813.9455563328921,
+      "nearest_possible_source_m": 120.17715945108108
+    },
+    {
+      "name": "q2-origin-budget700",
+      "repeat_bytes_equal": true,
+      "source_hashes_verified": true,
+      "selected_local_m": [
+        418.3989689154213,
+        561.1972037949143
+      ],
+      "move_and_measure_time_s": 144.99999981953118,
+      "worst_diameter_m": 233.6956977834063,
+      "same_prior_fixed_rule_worst_diameter_m": null,
+      "fixed_rule_excluded_by_budget": true,
+      "stationary_enumeration": {
+        "diameter_m": 233.69569778340488,
+        "reading_deg": -25.324308629229897,
+        "critical_candidates": 9,
+        "formal_root_isolation": false
+      },
+      "dense_16385": {
+        "sampled_worst_diameter_m": 233.6956977834063,
+        "worst_second_bearing_relative_deg": -25.324308629229897,
+        "second_bearing_interval_relative_deg": [
+          -127.3810631625775,
+          -25.324308629229897
+        ],
+        "bearing_samples": 16385,
+        "topology_changes_included": true,
+        "local_peak_refinement": true,
+        "formal_continuous_certificate": false
+      },
+      "reception_margin_m": 179.6842116177936,
+      "nearest_possible_source_m": 553.8096618841045
+    }
+  ],
+  "angular_cell_sensitivity": [
+    {
+      "cells": 4,
+      "selected_local_m": [
+        145.19928867437653,
+        -123.5701092235816
+      ],
+      "worst_diameter_m": 10.062077117594193,
+      "move_and_measure_time_s": 43.132613508687186
+    },
+    {
+      "cells": 16,
+      "selected_local_m": [
+        144.76353700821574,
+        -122.72232274041949
+      ],
+      "worst_diameter_m": 10.037394285174472,
+      "move_and_measure_time_s": 42.95642245835755
+    },
+    {
+      "cells": 64,
+      "selected_local_m": [
+        144.650848310117,
+        -122.4950945150261
+      ],
+      "worst_diameter_m": 10.031133056552505,
+      "move_and_measure_time_s": 42.9098489034613
+    }
+  ],
+  "hash_scheme": "sha256_text_lf",
+  "sources": {
+    "q1.py": "7337d5682dc9ab0e5111d337f804008caeb621675d552b3072e5343450dc87f0",
+    "q1_geometry.py": "695f6be8c49d1102de75694c5b3d22a1ffd1b1707fb4f603edecda924c002fb6",
+    "q2.py": "a6bc1c520b75a01d21d8a32804a6420ab02b9260a274b8563670080c276e1120",
+    "q2_geometry.py": "b4a2b87f20ace6ef5b5ce08e57e06b9af1a5fa5fb943a3009aaacb30f46c2544",
+    "q2_reference.py": "8d81bd7648100eddd4aec1409236a9607bdf245f8b8d52056abed65b8070740a",
+    "audit_q2.py": "aaf5c1dd34b4acdaac8d207c8fd4e1e4bccc2a22ece2322073d3e1542f1521ee",
+    "test_q2.py": "134132d5744e64553dd3514627a91248b7d854d2efd236bb66b208571bfbe1ef",
+    "test_q2_reference.py": "863d18f16678490f83ea326531255f4f194fd40e2a08cf8e7aff45b87110c92f"
+  },
+  "configs": {
+    "q1.json": "fed56afb22ee8457d7be1cb6bc2eb67816929aa2078e6105e5a67ee294c5c2ca",
+    "q2.json": "0fb92917d76a1eb605e9a01041170c526994919db6871b27fb37eca4bdacaf28"
+  },
+  "global_optimality_claimed": false,
+  "formal_continuous_certificate": false
+}

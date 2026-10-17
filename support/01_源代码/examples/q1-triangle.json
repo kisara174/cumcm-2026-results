@@ -1,0 +1,5 @@
+{
+  "description": "Analytical synthetic counterexample, not official simulator data. Three 2-degree wedges intersect in an equilateral triangle of side 40 m. Each detector lies 1200 m before a triangle edge's starting vertex, and its lower boundary follows that directed edge.",
+  "positions_m": [[-1200.0, 0.0], [640.0, -1039.2304845413264], [620.0, 1073.871500692704]],
+  "bearings_deg": [1.0, 121.0, 241.0]
+}

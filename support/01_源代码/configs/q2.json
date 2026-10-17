@@ -1,0 +1,19 @@
+{
+  "minimum_reception_radius_m": 1000.0,
+  "maximum_reception_radius_m": 1500.0,
+  "target_region_radius_m": 1800.0,
+  "near_radius_m": 5.0,
+  "clear_radius_m": 20.0,
+  "walking_speed_m_s": 5.0,
+  "measurement_time_s": 5.0,
+  "prior_angular_cells": 16,
+  "geometry_margin_m": 0.00001,
+  "minimum_measured_crossing_angle_deg": 3.0,
+  "maximum_move_distance_m": null,
+  "training_bearing_samples": 129,
+  "validation_bearing_samples": 2049,
+  "search_seed": 20260910,
+  "search_population": 10,
+  "search_iterations": 65,
+  "source": "B题.pdf 问题2及附录2。圆域、距离和动作时间来自题面；角度分片、数值余量、3度筛选、采样及搜索参数属于显式算法设置。无模拟器调用。"
+}

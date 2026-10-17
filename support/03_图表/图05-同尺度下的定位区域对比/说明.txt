@@ -1,0 +1,5 @@
+图5 　同尺度下的定位区域对比
+论文页码：13
+来源：assets/q2-q2-strategy-comparison.pdf
+排版参数：width=1\linewidth
+独立导出保持论文实际裁切范围；原始文件保留原字节。

@@ -1,0 +1,5 @@
+图9：问题3 官方演练案例的检测与清除路线
+论文页码：19
+来源：assets/q3-route-review.pdf
+排版参数：width=.85\linewidth,trim=9bp 16bp 26bp 19bp,clip
+独立导出保持论文实际裁切范围；原始文件保留原字节。

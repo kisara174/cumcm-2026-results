@@ -1,0 +1,83 @@
+{
+  "geometry": "intersection_of_forward_angular_wedges",
+  "bearing_error_deg": 1.0,
+  "length_tolerance_m": 9.150409826887538e-07,
+  "formal_interval_certificate": false,
+  "intersection_method_requested": "auto",
+  "clearance_radius_m": 20.0,
+  "minimum_enclosing_radius_m": 17.320508075688437,
+  "minimum_enclosing_center_m": [
+    15.000000000000096,
+    8.66025403784422
+  ],
+  "clearance_disk_covers": true,
+  "clearance_decision": "covers_with_margin",
+  "status": "polygon",
+  "vertices_m": [
+    [
+      3.8902214782865485e-13,
+      -1.7763568394002505e-15
+    ],
+    [
+      29.9999999999998,
+      0.0
+    ],
+    [
+      15.000000000000082,
+      25.980762113532656
+    ]
+  ],
+  "diameter_m": 29.999999999999417,
+  "diameter_endpoint_indices": [
+    1,
+    2
+  ],
+  "diameter_endpoints_m": [
+    [
+      29.9999999999998,
+      0.0
+    ],
+    [
+      15.000000000000082,
+      25.980762113532656
+    ]
+  ],
+  "diameter_disk_center_m": [
+    22.49999999999994,
+    12.990381056766328
+  ],
+  "diameter_disk_radius_m": 14.999999999999709,
+  "same_diameter_disk_covers": false,
+  "coverage_decision": "does_not_cover",
+  "maximum_distance_from_diameter_midpoint_m": 25.980762113532645,
+  "maximum_radius_excess_m": 10.980762113532935,
+  "farthest_vertex_index": 0,
+  "max_halfplane_residual_m": 1.5873430741510682e-15,
+  "max_lp_support_error_m": 1.4286087667359614e-13,
+  "parallel_or_near_parallel_pairs_skipped": 0,
+  "intersection_method_used": "qhull",
+  "intersection_fallback_reason": null,
+  "diameter_method": "rotating_calipers",
+  "minimum_enclosing_method": "welzl_with_support_audit",
+  "minimum_enclosing_seed": 20260910,
+  "minimum_enclosing_radius_lower_bound_m": 17.320508075688434,
+  "minimum_enclosing_optimality_gap_m": 3.1746861483021365e-15,
+  "minimum_enclosing_support_indices": [
+    0,
+    2,
+    1
+  ],
+  "minimum_enclosing_support_weights": [
+    0.3333333333333331,
+    0.3333333333333334,
+    0.3333333333333334
+  ],
+  "provenance": {
+    "hash_scheme": "sha256_text_lf",
+    "input_sha256": "0e7b8a6ab97a5b64d98f615f991a16a5e3d7a6a44dadb69d9ebabffd813ef7f5",
+    "config_sha256": "fed56afb22ee8457d7be1cb6bc2eb67816929aa2078e6105e5a67ee294c5c2ca",
+    "solver_sha256": "7337d5682dc9ab0e5111d337f804008caeb621675d552b3072e5343450dc87f0",
+    "geometry_sha256": "695f6be8c49d1102de75694c5b3d22a1ffd1b1707fb4f603edecda924c002fb6",
+    "input_description": "构造案例：边长30米的合法三角形角域交；同直径圆不能覆盖，但最小覆盖圆半径约17.320508米，小于20米。"
+  }
+}
